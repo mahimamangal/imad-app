@@ -16,11 +16,11 @@ app.get('/article-one',function(req,res)
 
 app.get('/article-one',function(req,res)
 {
-    res.send('Article 1');
+    res.send('Article 2');
 });
 app.get('/article-one',function(req,res)
 {
-    res.send('Article 1');
+    res.send('Article 3');
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
